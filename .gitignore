@@ -3,7 +3,7 @@ esf2
 
 # mac os dotfiles
 .DS_Store
-*/.DS_Store
+**/.DS_Store
 
 # vscode bits
 .vscode/*
