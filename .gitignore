@@ -1,5 +1,7 @@
-# exe
+# exe and test files
 esf2
+*.sf2
+*.wav
 
 # mac os dotfiles
 .DS_Store
