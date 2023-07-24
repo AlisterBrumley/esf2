@@ -1,16 +1,21 @@
+# exe
+esf2
+
 # mac os dotfiles
 .DS_Store
+*/.DS_Store
 
 # vscode bits
 .vscode/*
 
 # cmake bits
+CMakeLists.txt
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
-Makefile
+#Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
