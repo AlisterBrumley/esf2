@@ -7,6 +7,4 @@ Filenames incidate original pitch and pitch correction applied on SF2 playback (
 
 Works for both mono and stereo samples, but untested on ROM samples. Confirmed to work on MacOS, testing on other OS's soon.
 
-Makefile coming soon! But for now, building can be done by navigating into the /src directory and running:
-
-`clang -o esf2 esf2.c iterators.c structfill.c verify.c filenameset.c filewrite.c`
+Building done with cmake and then make, simply `cmake .` then `make`
