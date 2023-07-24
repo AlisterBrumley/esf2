@@ -1,6 +1,9 @@
 # mac os dotfiles
 .DS_Store
 
+# vscode bits
+.vscode/*
+
 # cmake bits
 CMakeLists.txt.user
 CMakeCache.txt
