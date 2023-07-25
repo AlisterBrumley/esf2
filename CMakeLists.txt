@@ -1,7 +1,7 @@
 #
 cmake_minimum_required(VERSION 3.20)
 project(esf2)
-include_directories(src)
+include_directories(include)
 add_executable(esf2 
     src/esf2.c
     src/filenameset.c

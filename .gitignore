@@ -1,7 +1,8 @@
 # exe and test files
-esf2
+#esf2
 *.sf2
 *.wav
+Makefile.manual
 
 # mac os dotfiles
 .DS_Store
