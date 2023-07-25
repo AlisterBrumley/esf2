@@ -11,7 +11,7 @@ esf2
 .vscode/*
 
 # cmake bits
-#CMakeLists.txt
+CMakeLists.txt
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
