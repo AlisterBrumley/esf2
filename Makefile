@@ -14,5 +14,6 @@ UNAME_S		:= $(shell uname -s)
 UNAME_M		:= $(shell uname -m)
 
 $(OUTFILE): $(SOURCES) $(INCLUDES)
-		mkdir $(UNAME_S)_$(UNAME_M)
-		$(CC) -I $(INCLDIR) -o $(UNAME_S)_$(UNAME_M)/$(OUTFILE) $(SOURCES)
+		@mkdir -p $(UNAME_S)_$(UNAME_M)
+		@$(CC) -I $(INCLDIR) -o $(UNAME_S)_$(UNAME_M)/$(OUTFILE) $(SOURCES)
+		@echo "made file in $(UNAME_S)_$(UNAME_M)/"
