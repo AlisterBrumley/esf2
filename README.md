@@ -7,4 +7,4 @@ Filenames incidate original pitch and pitch correction applied on SF2 playback (
 
 Works for both mono and stereo samples, but untested on ROM samples. Confirmed to work on MacOS (intel x86_64), and Fedora Linux(x86_64), binary executables are in relevant folders.
 
-If you want to build your own, simply run `make`!
+If you want to build your own, simply run `make`! (current makefile is clang only)
